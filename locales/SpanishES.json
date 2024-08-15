@@ -1,14 +1,14 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Configure the bot to stay in the voice channel.",
+			"description": "Configura el bot para que permanezca en el canal de voz.",
 			"errors": {
-				"not_in_voice": "`❌` | You must be in a voice channel to use this command.",
-				"generic": "`❌` | An error occurred while executing this command."
+				"not_in_voice": "`❌` | Debes estar en un canal de voz para utilizar este comando.",
+				"generic": "`❌` | Se ha producido un error al ejecutar este comando."
 			},
 			"messages": {
-				"disabled": "`✅` | 24/7 mode has been **disabled**.",
-				"enabled": "`✅` | 24/7 mode has been **enabled**. \n`🎧` | The bot will stay in the voice channel, even if there is no one left."
+				"disabled": "`✅` | El modo 24/7 ha sido **desactivado**.",
+				"enabled": "`✅` | El modo 24/7 ha sido **habilitado**. \n`🎧` | El bot permanecerá en el canal de voz, aunque no quede nadie."
 			}
 		},
 		"ping": {
