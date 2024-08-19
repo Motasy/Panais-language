@@ -1,691 +1,690 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Configure the bot to stay in the voice channel.",
+			"description": "Настройте бота, чтобы он оставался в голосовом канале.",
 			"errors": {
-				"not_in_voice": "`❌` | You must be in a voice channel to use this command.",
-				"generic": "`❌` | An error occurred while executing this command."
+				"not_in_voice": "`❌` | Вы должны находиться в голосовом канале, чтобы использовать эту команду.",
+				"generic": "`❌` | Произошла ошибка при выполнении этой команды."
 			},
 			"messages": {
-				"disabled": "`✅` | 24/7 mode has been **disabled**.",
-				"enabled": "`✅` | 24/7 mode has been **enabled**. \n`🎧` | The bot will stay in the voice channel, even if there is no one left."
+				"disabled": "`✅` | Режим 24/7 был **отключен**.",
+				"enabled": "`✅` | Режим 24/7 был **включен**. \n`🎧` | Бот будет оставаться в голосовом канале, даже если никто не останется."
 			}
 		},
 		"ping": {
-			"description": "Displays the bot's ping.",
-			"content": "`🏓` | Pinging...",
-			"bot_latency": "Bot Latency:",
-			"api_latency": "API Latency:",
-			"requested_by": "Requested by: {author}"
+			"description": "Отображает пинг бота.",
+			"content": "`🏓` | Пингую...",
+			"bot_latency": "Пинг бота:",
+			"api_latency": "Пинг API:",
+			"requested_by": "Запрошено: {author}"
 		},
 		"lavalink": {
-			"description": "Displays current Lavalink statistics.",
-			"title": "⚙️ Lavalink Stats",
-			"content": "Players: {players}\nPlaying Players: {playingPlayers}\nUptime: {uptime}\nCores: {cores} Core(s)\nMemory Usage: {used} / {reservable}\nSystem Load: {systemLoad}%\nLavalink Load: {lavalinkLoad}%"
+			"description": "Отображает текущую статистику Lavalink.",
+			"title": "⚙️ Статистика Lavalink",
+			"content": "Игроки: {players}\nИграющие игроки: {playingPlayers}\nВремя работы: {uptime}\nПроцессоры: {cores} Core(s)\nИспользование памяти: {used} / {reservable}\nНагрузка на систему: {systemLoad}%\nНагрузка на Lavalink: {lavalinkLoad}%"
 		},
 		"invite": {
-			"description": "Get the bot's invite link.",
-			"content": "You can invite me by clicking the button below!\nBugs or outages? Join the support server!"
+			"description": "Получите ссылку для приглашения бота.",
+			"content": "Вы можете пригласить меня, нажав на кнопку ниже!\nЕсть ошибки или сбои? Присоединяйтесь к серверу поддержки!"
 		},
 		"vote": {
-			"description": "Get the vote link.",
-			"content": "`👍` | Want to vote for Parsnip? Click the button below!"
+			"description": "Получите ссылку для голосования.",
+			"content": "`👍` | Хотите проголосовать за Parsnip? Нажмите на кнопку ниже!"
 		},
 		"premium": {
-			"description": "Get the premium link.",
-			"content": "`✨` | Upgrade to premium to unlock more features and support the bot!"
+			"description": "Получите ссылку на премиум.",
+			"content": "`✨` | Перейдите на премиум, чтобы разблокировать больше функций и поддержать бота!"
 		},
 		"support": {
-			"description": "Get the invite link for the support server.",
-			"content": "Need help? Join the support server by clicking the button below!"
+			"description": "Получите ссылку на сервер поддержки.",
+			"content": "Нужна помощь? Присоединяйтесь к серверу поддержки, нажав на кнопку ниже!"
 		},
 		"clusters": {
-			"description": "Displays information about the shard clusters.",
-			"content": "The server is on Shard: **{shard}**",
-			"author": "🌐 Parsnip Shard Information",
-			"fields": "Total Stats",
-			"shardname": "Shard {index}",
-			"shardvalue": "Servers: {guildCount} \nUsers: {memberCounts} \nChannels: {channelCounts} \nUptime: {uptimes} \nLatency: {pings} ms",
-			"totalinfo": "Total Servers: {totalGuilds} \nTotal Users: {totalUsers} \nTotal Channels: {totalChannels} \nUptime: {totalUptime} \nAverage Ping: {avgPing} ms"
+			"description": "Отображает информацию о кластерах шардов.",
+			"content": "Сервер находится на Шарде: **{shard}**",
+			"author": "🌐 Информация о Шарде Parsnip",
+			"fields": "Итоговая Статистика",
+			"shardname": "Шард {index}",
+			"shardvalue": "Серверы: {guildCount} \nПользователи: {memberCounts} \nКаналы: {channelCounts} \nВремя работы: {uptimes} \nПинг: {pings} мс",
+			"totalinfo": "Всего серверов: {totalGuilds} \nВсего пользователей: {totalUsers} \nВсего каналов: {totalChannels} \nВремя работы: {totalUptime} \nСредний пинг: {avgPing} мс"
 		},
 		"roleinfo": {
-			"description": "Displays information about a role.",
+			"description": "Отображает информацию о роли.",
 			"options": {
-				"role": "Choose a role to get its information."
+				"role": "Выберите роль, чтобы получить её информацию."
 			},
-			"title": "Role Information: {roleName}",
-			"role_not_found": "Role not found. Please mention a valid role or provide a valid role ID.",
-			"role_id": "Role ID:",
-			"yes": "Yes",
-			"no": "No",
-			"managed": "Managed by an integration:",
-			"hoisted": "Hoisted:",
-			"dj_role": "DJ Role:",
-			"members": "Member Count:",
-			"creation_date": "Creation Date:",
-			"mentionable": "Mentionable:",
-			"position": "Position:",
-			"color": "Color:"
+			"title": "Информация о роли: {roleName}",
+			"role_not_found": "Роль не найдена. Пожалуйста, укажите действительную роль или предоставьте действительный ID роли.",
+			"role_id": "ID роли:",
+			"yes": "Да",
+			"no": "Нет",
+			"managed": "Управляется интеграцией:",
+			"hoisted": "Выделена:",
+			"dj_role": "Роль DJ:",
+			"members": "Количество участников:",
+			"creation_date": "Дата создания:",
+			"mentionable": "Можно упомянуть:",
+			"position": "Позиция:",
+			"color": "Цвет:"
 		},
 		"help": {
-			"description": "Displays the help menu.",
+			"description": "Отображает меню помощи.",
 			"options": {
-				"command": "The command you want information about."
+				"command": "Команда, о которой вы хотите получить информацию."
 			},
-			"content": "Hi! I'm <@{bot}>, a music bot. You can use `{prefix}help <command>` to get more information about a command. \n\n`👍` Vote for the bot to unlock features! [Vote here](https://top.gg/bot/{client}/vote)",
-			"title": "📖 Help Menu",
-			"not_found": "That command `{cmdName}` doesn't exist.",
-			"help_cmd": "**Description:** {description}\n**Usage:** {usage}\n**Examples:** {examples}\n**Alias:** {aliases}\n**Category:** {category}\n**Cooldown:** {cooldown} seconds\n\n**User Permissions:** {premUser}\n**Bot Permissions:** {premBot}\n**Developer Only:** {dev}\n**Slash Command:** {slash}\n**Arguments:** {args}\n\n**Player:** {player}\n**DJ:** {dj}\n**DJ Permissions:** {djPerm}\n**Voice:** {voice}",
-			"footer": "Use {prefix}help <command> for more information about a command."
+			"content": "Привет! Я <@{bot}>, музыкальный бот. Вы можете использовать `{prefix}help <command>`, чтобы получить дополнительную информацию о команде. \n\n`👍` Проголосуйте за бота, чтобы разблокировать функции! [Голосуйте здесь](https://top.gg/bot/{client}/vote)",
+			"title": "📖 Меню Помощи",
+			"not_found": "Эта команда `{cmdName}` не существует.",
+			"help_cmd": "**Описание:** {description}\n**Использование:** {usage}\n**Примеры:** {examples}\n**Псевдонимы:** {aliases}\n**Категория:** {category}\n**Задержка:** {cooldown} секунд\n\n**Права пользователя:** {premUser}\n**Права бота:** {premBot}\n**Только для разработчиков:** {dev}\n**Slash-команда:** {slash}\n**Аргументы:** {args}\n\n**Игрок:** {player}\n**DJ:** {dj}\n**Права DJ:** {djPerm}\n**Голос:** {voice}",
+			"footer": "Используйте {prefix}help <command>, чтобы получить дополнительную информацию о команде."
 		},
 		"botinfo": {
-			"description": "Information about the bot.",
-			"content": "Bot Information:\n- **Operating System:** {osInfo}\n- **Uptime:** {osUptime}\n- **Hostname:** {osHostname}\n- **CPU Architecture:** {cpuInfo}\n- **CPU Usage:** {cpuUsed}%\n- **Memory Usage:** {memUsed}MB / {memTotal}GB\n- **Node Version:** {nodeVersion}\n- **Discord.js Version:** {discordJsVersion}\n- **Connected to:** {guilds} servers, {channels} channels, and {users} users\n- **Total Commands:** {commands}"
+			"description": "Информация о боте.",
+			"content": "Информация о боте:\n- **Операционная система:** {osInfo}\n- **Время работы:** {osUptime}\n- **Имя хоста:** {osHostname}\n- **Архитектура CPU:** {cpuInfo}\n- **Использование CPU:** {cpuUsed}%\n- **Использование памяти:** {memUsed}MB / {memTotal}GB\n- **Версия Node:** {nodeVersion}\n- **Версия Discord.js:** {discordJsVersion}\n- **Подключено к:** {guilds} серверам, {channels} каналам и {users} пользователям\n- **Всего команд:** {commands}"
 		},
 		"dj": {
-			"description": "Manage DJ mode and roles.",
+			"description": "Управляйте режимом DJ и ролями.",
 			"errors": {
-				"provide_role": "`❌` | Please provide a role.",
-				"no_roles": "`❌` | The DJ role is empty.",
-				"invalid_subcommand": "`❌` | Please provide a valid subcommand."
+				"provide_role": "`❌` | Пожалуйста, укажите роль.",
+				"no_roles": "`❌` | Роль DJ пустая.",
+				"invalid_subcommand": "`❌` | Пожалуйста, укажите действительную подкоманду."
 			},
 			"messages": {
-				"role_exists": "The DJ role <@&{roleId}> is already added.",
-				"role_added": "`🎧` | The DJ role <@&{roleId}> has been added.",
-				"role_not_found": "The DJ role <@&{roleId}> is not added.",
-				"role_removed": "`🗑️` | The DJ role <@&{roleId}> has been removed.",
-				"all_roles_cleared": "`🧹` | All DJ roles have been cleared.",
-				"toggle": "`🎤` | DJ mode has been {status}."
+				"role_exists": "Роль DJ <@&{roleId}> уже добавлена.",
+				"role_added": "`🎧` | Роль DJ <@&{roleId}> была добавлена.",
+				"role_not_found": "Роль DJ <@&{roleId}> не добавлена.",
+				"role_removed": "`🗑️` | Роль DJ <@&{roleId}> была удалена.",
+				"all_roles_cleared": "`🧹` | Все роли DJ были удалены.",
+				"toggle": "`🎤` | Режим DJ был {status}."
 			},
 			"options": {
-				"add": "The DJ role you want to add.",
-				"remove": "The DJ role you want to remove.",
-				"clear": "Clears all DJ roles.",
-				"toggle": "Toggle DJ role.",
-				"role": "The DJ role."
+				"add": "Роль DJ, которую вы хотите добавить.",
+				"remove": "Роль DJ, которую вы хотите удалить.",
+				"clear": "Удаляет все роли DJ.",
+				"toggle": "Переключить роль DJ.",
+				"role": "Роль DJ."
 			},
-			"subcommands": "Subcommands"
+			"subcommands": "Подкоманды"
 		},
 		"language": {
-			"description": "Set the bot's language.",
-			"invalid_language": "Please provide a valid language. Example: `EnglishUS` for English (United States)\n\nYou can find the list of supported languages [here](https://discord.com/developers/docs/reference#locales)\n\n**Available Languages:**\n{languages}",
-			"already_set": "The language is already set to `{language}`.",
-			"not_set": "The language is not set.",
-			"set": "`✅` | The language has been set to `{language}`.",
-			"reset": "`✅` | The language has been reset.",
+			"description": "Установите язык бота.",
+			"invalid_language": "Пожалуйста, укажите действительный язык. Пример: `EnglishUS` для английского (США)\n\nВы можете найти список поддерживаемых языков [здесь](https://discord.com/developers/docs/reference#locales)\n\n**Доступные языки:**\n{languages}",
+			"already_set": "Язык уже установлен на `{language}`.",
+			"not_set": "Язык не установлен.",
+			"set": "`✅` | Язык был установлен на `{language}`.",
+			"reset": "`✅` | Язык был сброшен.",
 			"options": {
-				"set": "Set the bot's language.",
-				"language": "The language you want to set.",
-				"reset": "Reset the language to the default language."
+				"set": "Установите язык бота.",
+				"language": "Язык, который вы хотите установить.",
+				"reset": "Сбросьте язык до стандартного."
 			}
 		},
 		"prefix": {
-			"description": "Displays or sets the bot's prefix.",
+			"description": "Отображает или устанавливает префикс бота.",
 			"errors": {
-				"prefix_too_long": "`❌` | The prefix cannot be longer than 3 characters."
+				"prefix_too_long": "`❌` | Префикс не может быть длиннее 3 символов."
 			},
 			"messages": {
-				"current_prefix": "The prefix for this server is `{prefix}`.",
-				"prefix_set": "The prefix for this server is now `{prefix}`.",
-				"prefix_reset": "The prefix for this server is now `{prefix}`."
+				"current_prefix": "Префикс для этого сервера `{prefix}`.",
+				"prefix_set": "Префикс для этого сервера теперь `{prefix}`.",
+				"prefix_reset": "Префикс для этого сервера теперь `{prefix}`."
 			},
 			"options": {
-				"set": "Sets the prefix.",
-				"prefix": "The prefix you want to set.",
-				"reset": "Resets the prefix to the default one."
+				"set": "Установите префикс.",
+				"prefix": "Префикс, который вы хотите установить.",
+				"reset": "Сбросьте префикс до стандартного."
 			}
 		},
 		"theme": {
-			"description": "Changes the player theme.",
-			"currentTheme": "The current theme is **{currentTheme}**.",
-			"choice": "`❌` | Invalid theme. Available themes are `classic`, `modern`, and `modernpro`.",
-			"set_theme": "`✅` | The theme has been set to **{theme}**.",
-			"reset": "`✅` | The theme has been reset to **{defaultTheme}**.",
-			"default": "`❌` | The current theme is **{currentTheme}**.",
+			"description": "Изменяет тему плеера.",
+			"currentTheme": "Текущая тема **{currentTheme}**.",
+			"choice": "`❌` | Неверная тема. Доступные темы: `classic`, `modern` и `modernpro`.",
+			"set_theme": "`✅` | Тема была установлена на **{theme}**.",
+			"reset": "`✅` | Тема была сброшена на **{defaultTheme}**.",
+			"default": "`❌` | Текущая тема **{currentTheme}**.",
 			"options": {
-				"set": "Set the player theme.",
-				"theme": "The theme to set (classic, modern, or modernpro).",
-				"reset": "Reset the theme to the default."
+				"set": "Установите тему плеера.",
+				"theme": "Тема для установки (classic, modern или modernpro).",
+				"reset": "Сбросьте тему до стандартной."
 			}
 		},
 		"setup": {
-			"description": "Sets up the bot.",
+			"description": "Настройте бота.",
 			"errors": {
-				"channel_exists": "`❌` | The song request channel already exists.",
-				"channel_not_exists": "`❌` | The song request channel does not exist.",
-				"channel_delete_fail": "`❌` | The song request channel has been deleted. If the channel is not deleted normally, please delete it yourself."
+				"channel_exists": "`❌` | Канал запросов песен уже существует.",
+				"channel_not_exists": "`❌` | Канал запросов песен не существует.",
+				"channel_delete_fail": "`❌` | Канал запросов песен был удален. Если канал не удален нормально, пожалуйста, удалите его сами."
 			},
 			"messages": {
-				"channel_created": "`🎉` | The song request channel has been created in <#{channelId}>.",
-				"channel_deleted": "`🗑️` | The song request channel has been deleted.",
-				"channel_info": "`🎤` | The song request channel is <#{channelId}>."
+				"channel_created": "`🎉` | Канал запросов песен был создан в <#{channelId}>.",
+				"channel_deleted": "`🗑️` | Канал запросов песен был удален.",
+				"channel_info": "`🎤` | Канал запросов песен это <#{channelId}>."
 			},
 			"options": {
-				"create": "Creates the song request channel.",
-				"delete": "Deletes the song request channel.",
-				"info": "Displays the song request channel."
+				"create": "Создает канал запросов песен.",
+				"delete": "Удаляет канал запросов песен.",
+				"info": "Отображает канал запросов песен."
 			}
 		},
 		"8d": {
-			"description": "Enables/disables the 8d filter.",
+			"description": "Включает/выключает 8d фильтр.",
 			"messages": {
-				"filter_enabled": "`✅` | 8D filter has been **enabled**.",
-				"filter_disabled": "`✅` | 8D filter has been **disabled**."
+				"filter_enabled": "`✅` | 8D фильтр был **включен**.",
+				"filter_disabled": "`✅` | 8D фильтр был **отключен**."
 			}
 		},
-		"bassboost": {
-			"description": "Enables/disables the bassboost filter.",
-			"messages": {
-				"filter_enabled": "`✅` | Bassboost filter has been **enabled**.\n`⚠️` | Warning, listening too loud can damage your hearing!",
-				"filter_disabled": "`✅` | Bassboost filter has been **disabled**."
-			}
+{
+	"bassboost": {
+		"description": "Включает/выключает фильтр усиления басов.",
+		"messages": {
+			"filter_enabled": "`✅` | Фильтр усиления басов был **включен**.\n`⚠️` | Внимание, слишком громкое прослушивание может повредить слух!",
+			"filter_disabled": "`✅` | Фильтр усиления басов был **выключен**."
+		}
+	},
+	"distorsion": {
+		"description": "Включает/выключает фильтр искажения.",
+		"messages": {
+			"filter_enabled": "`✅` | Фильтр искажения был **включен**.",
+			"filter_disabled": "`✅` | Фильтр искажения был **выключен**."
+		}
+	},
+	"karaoke": {
+		"description": "Включает/выключает фильтр караоке.",
+		"messages": {
+			"filter_enabled": "`✅` | Фильтр караоке был **включен**.",
+			"filter_disabled": "`✅` | Фильтр караоке был **выключен**."
+		}
+	},
+	"lowpass": {
+		"description": "Включает/выключает фильтр низких частот.",
+		"messages": {
+			"filter_enabled": "`✅` | Фильтр низких частот был **включен**.",
+			"filter_disabled": "`✅` | Фильтр низких частот был **выключен**."
+		}
+	},
+	"nightcore": {
+		"description": "Включает/выключает фильтр Nightcore.",
+		"messages": {
+			"filter_enabled": "`✅` | Фильтр Nightcore был **включен**.",
+			"filter_disabled": "`✅` | Фильтр Nightcore был **выключен**."
+		}
+	},
+	"pitch": {
+		"description": "Включает/выключает фильтр изменения высоты тона.",
+		"options": {
+			"pitch": "Число, на которое вы хотите установить высоту тона (между 0.5 и 5)."
 		},
-		"distorsion": {
-			"description": "Enables/disables the distortion filter.",
-			"messages": {
-				"filter_enabled": "`✅` | Distortion filter has been **enabled**.",
-				"filter_disabled": "`✅` | Distortion filter has been **disabled**."
-			}
+		"errors": {
+			"invalid_number": "`❌` | Пожалуйста, укажите действительное число между **0.5** и **5**."
 		},
-		"karaoke": {
-			"description": "Enables/disables the karaoke filter.",
-			"messages": {
-				"filter_enabled": "`✅` | Karaoke filter has been **enabled**.",
-				"filter_disabled": "`✅` | Karaoke filter has been **disabled**."
-			}
+		"messages": {
+			"pitch_set": "`✅` | Высота тона установлена на **{pitch}**.`"
+		}
+	},
+	"rate": {
+		"description": "Изменяет скорость песни.",
+		"options": {
+			"rate": "Число, на которое вы хотите установить скорость (между 0.5 и 5)."
 		},
-		"lowpass": {
-			"description": "Enables/disables the lowpass filter.",
-			"messages": {
-				"filter_enabled": "`✅` | Lowpass filter has been **enabled**.",
-				"filter_disabled": "`✅` | Lowpass filter has been **disabled**."
-			}
+		"errors": {
+			"invalid_number": "`❌` | Пожалуйста, укажите действительное число между **0.5** и **5**."
 		},
-		"nightcore": {
-			"description": "Enables/disables the nightcore filter.",
-			"messages": {
-				"filter_enabled": "`✅` | Nightcore filter has been **enabled**.",
-				"filter_disabled": "`✅` | Nightcore filter has been **disabled**."
-			}
+		"messages": {
+			"rate_set": "`✅` | Скорость установлена на **{rate}**."
+		}
+	},
+	"reset": {
+		"description": "Сбрасывает активные фильтры.",
+		"messages": {
+			"filters_reset": "`✅` | Фильтры были сброшены."
+		}
+	},
+	"rotation": {
+		"description": "Включает/выключает фильтр вращения.",
+		"messages": {
+			"enabled": "`✅` | Фильтр вращения был **включен**.",
+			"disabled": "`✅` | Фильтр вращения был **выключен**."
+		}
+	},
+	"speed": {
+		"description": "Изменяет скорость песни.",
+		"options": {
+			"speed": "Скорость, которую вы хотите установить (между 0.5 и 5)."
 		},
-		"pitch": {
-			"description": "Enables/disables the pitch filter.",
-			"options": {
-				"pitch": "The number you want to set the pitch to (between 0.5 and 5)."
+		"messages": {
+			"invalid_number": "`❌` | Пожалуйста, укажите действительное число между **0.5** и **5**.",
+			"set_speed": "`✅` | Скорость установлена на **{speed}**."
+		}
+	},
+	"tremolo": {
+		"description": "Включает/выключает фильтр тремоло.",
+		"messages": {
+			"enabled": "`✅` | Фильтр тремоло был **включен**.",
+			"disabled": "`✅` | Фильтр тремоло был **выключен**."
+		}
+	},
+	"vibrato": {
+		"description": "Включает/выключает фильтр вибрато.",
+		"messages": {
+			"enabled": "`✅` | Фильтр вибрато был **включен**.",
+			"disabled": "`✅` | Фильтр вибрато был **выключен**."
+		}
+	},
+	"autoplay": {
+		"description": "Включает/выключает режим автозапуска.",
+		"messages": {
+			"enabled": "`✅` | Автозапуск был **включен**.",
+			"disabled": "`✅` | Автозапуск был **выключен**."
+		}
+	},
+	"clearqueue": {
+		"description": "Очищает очередь.",
+		"messages": {
+			"cleared": "`🗑️` | Очередь была очищена."
+		}
+	},
+	"grab": {
+		"loading": "`⏳` Загрузка...",
+		"description": "Получает текущую воспроизводимую песню в ваших личных сообщениях.",
+		"content": "**Название:** {title}\n**Длительность:** {length}\n**Запрошено:** <@{requester}>\n**Ссылка:** [Нажмите здесь]({uri})",
+		"check_dm": "`📨` | Пожалуйста, проверьте ваши личные сообщения.",
+		"dm_failed": "Не удалось отправить вам личное сообщение. Убедитесь, что у вас включены личные сообщения."
+	},
+	"join": {
+		"description": "Присоединиться к голосовому каналу.",
+		"already_connected": "Я уже подключен к <#{channelId}>.",
+		"no_voice_channel": "Вам нужно быть в голосовом канале, чтобы использовать эту команду.",
+		"joined": "`🎤` | Успешно присоединился к голосовому каналу <#{channelId}>."
+	},
+	"leave": {
+		"description": "Покинуть голосовой канал.",
+		"left": "`🚪` | Успешно покинул голосовой канал <#{channelId}>.",
+		"not_in_channel": "Я не нахожусь в голосовом канале."
+	},
+	"loop": {
+		"description": "Циклично воспроизводить текущую песню или очередь.",
+		"looping_song": "`🔂` | **Цикл песни включен.**",
+		"looping_queue": "`🔁` | **Цикл очереди включен.**",
+		"looping_off": "`🔕` | **Цикл выключен.**"
+	},
+	"nowplaying": {
+		"description": "Отображает текущую воспроизводимую песню.",
+		"now_playing": "Сейчас играет:",
+		"track_info": "[{title}]({uri}) - Запрошено: <@{requester}>\n\n`{bar}`"
+	},
+	"pause": {
+		"description": "Приостанавливает текущую песню.",
+		"successfully_paused": "`⏸️` | Песня была успешно приостановлена."
+	},
+	"play": {
+		"description": "Воспроизводит песню с YouTube, Spotify или http.",
+		"options": {
+			"song": "Песня, которую вы хотите воспроизвести."
+		},
+		"loading": "`⏳` Загрузка...",
+		"errors": {
+			"search_error": "`❌` | Произошла ошибка при поиске.",
+			"no_results": "`❌` | Результаты не найдены.",
+			"queue_too_long": "`❌` | Очередь слишком длинная. Максимальная длина - {maxQueueSize} песен.",
+			"playlist_too_long": "`❌` | Плейлист слишком длинный. Максимальная длина - {maxPlaylistSize} песен."
 			},
-			"errors": {
-				"invalid_number": "`❌` | Please provide a valid number between **0.5** and **5**."
+		"added_to_queue": "`🎶` | Добавлено [{title}]({uri}) в очередь.",
+		"added_playlist_to_queue": "`🎶` | Добавлено {length} песен в очередь."
+	},
+	"playnext": {
+		"description": "Добавляет песню для следующего воспроизведения в очереди.",
+		"options": {
+			"song": "Песня, которую вы хотите воспроизвести."
+		},
+		"loading": "`⏳` Загрузка...",
+		"errors": {
+			"search_error": "`❌` | Произошла ошибка при поиске.",
+			"no_results": "`❌` | Результаты не найдены.",
+			"queue_too_long": "`❌` | Очередь слишком длинная. Максимальная длина {maxQueueSize} песен.",
+			"playlist_too_long": "`❌` | Плейлист слишком длинный. Максимальная длина {maxPlaylistSize} песен."
+		},
+		"added_to_play_next": "`🎶` | Добавлено [{title}]({uri}) для следующего воспроизведения в очереди.",
+		"added_playlist_to_play_next": "`🎶` | Добавлено {length} песен для следующего воспроизведения в очереди."
+	},
+	"queue": {
+		"description": "Показывает текущую очередь.",
+		"now_playing": "Сейчас играет: [{title}]({uri}) - Запрошено: <@{requester}> - Длительность: `{duration}`",
+		"live": "ВЖИВО",
+		"track_info": "{index}. [{title}]({uri}) - Запрошено: <@{requester}> - Длительность: `{duration}`",
+		"title": "📃 Очередь",
+		"page_info": "Страница {index} из {total}"
+	},
+	"remove": {
+		"description": "Удаляет песню из очереди.",
+		"options": {
+			"song": "Номер песни, которую вы хотите удалить."
+		},
+		"errors": {
+			"no_songs": "`❌` | В очереди нет песен.",
+			"invalid_number": "`❌` | Пожалуйста, укажите правильный номер песни."
+		},
+		"messages": {
+			"removed": "`🗑️` | Песня номер {songNumber} удалена из очереди."
+		}
+	},
+	"replay": {
+		"description": "Воспроизводит текущую песню снова.",
+		"errors": {
+			"not_seekable": "`❌` | Невозможно воспроизвести эту песню снова, так как она не поддерживает перемотку."
+		},
+		"messages": {
+			"replaying": "`🔁` | Воспроизводим текущую песню снова.`"
+		}
+	},
+	"lyrics": {
+		"description": "Получает текст текущей песни или указанной песни.",
+		"options": {
+			"song": "Название песни, для которой вы хотите найти текст."
+		},
+		"error": {
+			"loading": "`⏳` Загрузка...",
+			"no_lyrics_found": "`❌` | Текст не найден!",
+			"no_song": "Не указана песня или она не воспроизводится в данный момент."
+		}
+	},
+	"resume": {
+		"description": "Возобновляет текущую песню.",
+		"errors": {
+			"not_paused": "`❌` | Воспроизведение не приостановлено."
+		},
+		"messages": {
+			"resumed": "`⏯️` | Воспроизведение возобновлено."
+		}
+	},
+	"search": {
+		"description": "Ищет песню.",
+		"options": {
+			"song": "Песня, которую вы хотите найти."
+		},
+		"errors": {
+			"no_results": "`❌` | Результаты не найдены.",
+			"search_error": "`❌` | Произошла ошибка при поиске."
+		},
+		"messages": {
+			"added_to_queue": "`🎶` | Добавлено [{title}]({uri}) в очередь."
+		}
+	},
+	"seek": {
+		"description": "Перематывает к конкретному времени в песне.",
+		"options": {
+			"duration": "Продолжительность, к которой вы хотите перемотать."
+		},
+		"errors": {
+			"invalid_format": "`❌` | Неверный формат времени. Примеры: seek 1m, seek 1h 30m",
+			"not_seekable": "`❌` | Эта песня не поддерживает перемотку.",
+			"beyond_duration": "`❌` | Невозможно перемотать за пределы длительности песни {length}."
+		},
+		"messages": {
+			"seeked_to": "`🕐` | Перемотано на {duration}."
+		}
+	},
+	"shuffle": {
+		"description": "Перемешивает очередь.",
+		"messages": {
+			"shuffled": "`🔀` | Очередь перемешана."
+		}
+	},
+	"skip": {
+		"description": "Пропускает текущую песню.",
+		"messages": {
+			"skipped": "`⏭️` | Пропущена песня [{title}]({uri})."
+		}
+	},
+	"skipto": {
+		"description": "Перематывает к конкретной песне в очереди.",
+		"options": {
+			"number": "Номер песни, к которой вы хотите перемотать."
+		},
+		"errors": {
+			"invalid_number": "`❌` | Пожалуйста, укажите правильный номер."
+		},
+		"messages": {
+			"skipped_to": "`⏭️` | Перемотано к песне номер {number}."
+		}
+	},
+	"stop": {
+		"description": "Останавливает воспроизведение и очищает очередь.",
+		"messages": {
+			"stopped": "`⏹️` | Воспроизведение остановлено и очередь очищена."
+		}
+	},
+	"volume": {
+		"description": "Устанавливает громкость плеера.",
+		"options": {
+			"number": "Громкость, которую вы хотите установить."
+		},
+		"messages": {
+			"invalid_number": "`❌` | Пожалуйста, укажите правильное число.",
+			"too_low": "`❌` | Громкость не может быть ниже 0.",
+			"too_high": "`❌` | Громкость не может быть выше 200. Вы хотите повредить слух или колонки? Хмм, я не думаю, что это хорошая идея.",
+			"set": "`🔊` | Громкость установлена на {volume}."
+		}
+	},
+	"addsong": {
+		"description": "Добавляет песню в плейлист.",
+		"options": {
+			"playlist": "Плейлист, в который вы хотите добавить песню.",
+			"song": "Песня, которую вы хотите добавить."
 			},
-			"messages": {
-				"pitch_set": "`✅` | Pitch has been set to **{pitch}**.`"
-			}
+	"messages": {
+		"no_playlist": "`❌` | Пожалуйста, укажите плейлист.",
+		"no_song": "`❌` | Пожалуйста, укажите песню.",
+		"playlist_not_found": "`❌` | Этот плейлист не существует.",
+		"no_songs_found": "`❌` | Песен не найдено.",
+		"added": "`🎶` | Добавлено {count} песен(и) в {playlist}."
+	},
+	"create": {
+		"description": "Создает плейлист.",
+		"options": {
+			"name": "Название плейлиста."
 		},
-		"rate": {
-			"description": "Changes the rate of the song.",
-			"options": {
-				"rate": "The number you want to set the rate to (between 0.5 and 5)."
-			},
-			"errors": {
-				"invalid_number": "`❌` | Please provide a valid number between **0.5** and **5**."
-			},
-			"messages": {
-				"rate_set": "`✅` | Rate has been set to **{rate}**."
-			}
+		"messages": {
+			"name_too_long": "`❌` | Названия плейлистов не могут быть длиннее 50 символов.",
+			"playlist_exists": "`❌` | Плейлист с таким именем уже существует. Пожалуйста, используйте другое имя.",
+			"playlist_created": "`🎶` | Плейлист **{name}** создан."
+		}
+	},
+	"delete": {
+		"description": "Удаляет плейлист.",
+		"options": {
+			"playlist": "Плейлист, который вы хотите удалить."
 		},
-		"reset": {
-			"description": "Resets the active filters.",
-			"messages": {
-				"filters_reset": "`✅` | Filters have been reset."
-			}
+		"messages": {
+			"playlist_not_found": "`❌` | Этот плейлист не существует.",
+			"playlist_deleted": "`🗑️` | Плейлист **{playlistName}** удален.`"
+		}
+	},
+	"list": {
+		"description": "Получает все плейлисты пользователя.",
+		"options": {
+			"user": "Пользователь, чьи плейлисты вы хотите получить."
 		},
-		"rotation": {
-			"description": "Enables/disables the rotation filter.",
-			"messages": {
-				"enabled": "`✅` | Rotation filter has been **enabled**.",
-				"disabled": "`✅` | Rotation filter has been **disabled**."
-			}
+		"messages": {
+			"no_playlists": "У этого пользователя нет плейлистов.",
+			"your": "Ваши",
+			"playlists_title": "📃 Плейлисты {username}",
+			"error": "`❌` | Произошла ошибка при получении плейлистов."
+		}
+	},
+	"load": {
+		"description": "Загружает плейлист.",
+		"options": {
+			"playlist": "Плейлист, который вы хотите загрузить."
 		},
-		"speed": {
-			"description": "Changes the speed of the song.",
-			"options": {
-				"speed": "The speed you want to set (between 0.5 and 5)."
-			},
-			"messages": {
-				"invalid_number": "`❌` | Please provide a valid number between **0.5** and **5**.",
-				"set_speed": "`✅` | Speed has been set to **{speed}**."
-			}
+		"messages": {
+			"playlist_not_exist": "`❌` | Этот плейлист не существует.",
+			"playlist_empty": "`❌` | Этот плейлист пуст.",
+			"playlist_loaded": "`🎶` | Плейлист `{name}` загружен с `{count}` песнями."
+		}
+	},
+	"removesong": {
+		"description": "Удаляет песню из плейлиста.",
+		"options": {
+			"playlist": "Плейлист, из которого вы хотите удалить песню.",
+			"song": "Песня, которую вы хотите удалить."
 		},
-		"tremolo": {
-			"description": "Enables/disables the tremolo filter.",
-			"messages": {
-				"enabled": "`✅` | Tremolo filter has been **enabled**.",
-				"disabled": "`✅` | Tremolo filter has been **disabled**."
-			}
+		"messages": {
+			"provide_playlist": "`❌` | Пожалуйста, укажите плейлист.",
+			"provide_song": "`❌` | Пожалуйста, укажите песню.",
+			"playlist_not_exist": "`❌` | Этот плейлист не существует.",
+			"song_not_found": "`❌` | Соответствующая песня не найдена.",
+			"song_removed": "`🗑️` | Песня {song} удалена из {playlist}.",
+			"error_occurred": "`❌` | Произошла ошибка при удалении песни."
+		}
+	},
+	"steal": {
+		"description": "Воровает плейлист у другого пользователя и добавляет его в ваши плейлисты.",
+		"options": {
+			"playlist": "Плейлист, который вы хотите украсть.",
+			"user": "Пользователь, у которого вы хотите украсть плейлист."
 		},
-		"vibrato": {
-			"description": "Enables/disables the vibrato filter.",
-			"messages": {
-				"enabled": "`✅` | Vibrato filter has been **enabled**.",
-				"disabled": "`✅` | Vibrato filter has been **disabled**."
-			}
-		},
-		"autoplay": {
-			"description": "Enables/disables the autoplay mode.",
-			"messages": {
-				"enabled": "`✅` | Autoplay has been **enabled**.",
-				"disabled": "`✅` | Autoplay has been **disabled**."
-			}
-		},
-		"clearqueue": {
-			"description": "Clears the queue.",
-			"messages": {
-				"cleared": "`🗑️` | The queue has been cleared."
-			}
-		},
-		"grab": {
-			"loading": "`⏳` Loading...",
-			"description": "Gets the currently playing song in your DMs.",
-			"content": "**Title:** {title}\n**Duration:** {length}\n**Requested by:** <@{requester}>\n**Link:** [Click here]({uri})",
-			"check_dm": "`📨` | Please check your DMs.",
-			"dm_failed": "I couldn't send you a DM. Make sure you have direct messages enabled."
-		},
-		"join": {
-			"description": "Join the voice channel.",
-			"already_connected": "I'm already connected to <#{channelId}>.",
-			"no_voice_channel": "You need to be in a voice channel to use this command.",
-			"joined": "`🎤` | Voice channel <#{channelId}> joined successfully."
-		},
-		"leave": {
-			"description": "Leave the voice channel.",
-			"left": "`🚪` | Voice channel <#{channelId}> left successfully.",
-			"not_in_channel": "I'm not in a voice channel."
-		},
-		"loop": {
-			"description": "Loop the current song or the queue.",
-			"looping_song": "`🔂` | **Song loop enabled.**",
-			"looping_queue": "`🔁` | **Queue loop enabled.**",
-			"looping_off": "`🔕` | **Loop disabled.**"
-		},
-		"nowplaying": {
-			"description": "Displays the currently playing song.",
-			"now_playing": "Now Playing:",
-			"track_info": "[{title}]({uri}) - Requested by: <@{requester}>\n\n`{bar}`"
-		},
-		"pause": {
-			"description": "Pauses the current song.",
-			"successfully_paused": "`⏸️` | The song has been paused successfully."
-		},
-		"play": {
-			"description": "Play a song from YouTube, Spotify, or http.",
-			"options": {
-				"song": "The song you want to play."
-			},
-			"loading": "`⏳` Loading...",
-			"errors": {
-				"search_error": "`❌` | An error occurred while searching.",
-				"no_results": "`❌` | No results found.",
-				"queue_too_long": "`❌` | The queue is too long. The maximum length is {maxQueueSize} songs.",
-				"playlist_too_long": "`❌` | The playlist is too long. The maximum length is {maxPlaylistSize} songs."
-			},
-			"added_to_queue": "`🎶` | Added [{title}]({uri}) to the queue.",
-			"added_playlist_to_queue": "`🎶` | Added {length} songs to the queue."
-		},
-		"playnext": {
-			"description": "Add the song to play next in the queue.",
-			"options": {
-				"song": "The song you want to play."
-			},
-			"loading": "`⏳` Loading...",
-			"errors": {
-				"search_error": "`❌` | An error occurred while searching.",
-				"no_results": "`❌` | No results found.",
-				"queue_too_long": "`❌` | The queue is too long. The maximum length is {maxQueueSize} songs.",
-				"playlist_too_long": "`❌` | The playlist is too long. The maximum length is {maxPlaylistSize} songs."
-			},
-			"added_to_play_next": "`🎶` | Added [{title}]({uri}) to play next in the queue.",
-			"added_playlist_to_play_next": "`🎶` | Added {length} songs to play next in the queue."
-		},
-		"queue": {
-			"description": "Displays the current queue.",
-			"now_playing": "Now Playing: [{title}]({uri}) - Requested by: <@{requester}> - Duration: `{duration}`",
-			"live": "LIVE",
-			"track_info": "{index}. [{title}]({uri}) - Requested by: <@{requester}> - Duration: `{duration}`",
-			"title": "📃 Queue",
-			"page_info": "Page {index} of {total}"
-		},
-		"remove": {
-			"description": "Removes a song from the queue.",
-			"options": {
-				"song": "The number of the song you want to remove."
-			},
-			"errors": {
-				"no_songs": "`❌` | There are no songs in the queue.",
-				"invalid_number": "`❌` | Please provide a valid song number."
-			},
-			"messages": {
-				"removed": "`🗑️` | Song number {songNumber} removed from the queue."
-			}
-		},
-		"replay": {
-			"description": "Replays the current song.",
-			"errors": {
-				"not_seekable": "`❌` | Unable to replay this song as it is not seekable."
-			},
-			"messages": {
-				"replaying": "`🔁` | Replaying the current song.`"
-			}
-		},
-		"lyrics": {
-			"description": "Gets the lyrics of the currently playing song or a specified song.",
-			"options": {
-				"song": "The name of the song you want to search the lyrics for."
-			},
-			"error": {
-				"loading": "`⏳` Loading...",
-				"no_lyrics_found": "`❌` | No lyrics found!",
-				"no_song": "No song provided or currently playing."
-			}
-		},
-		"resume": {
-			"description": "Resumes the current song.",
-			"errors": {
-				"not_paused": "`❌` | The player is not paused."
-			},
-			"messages": {
-				"resumed": "`⏯️` | Player resumed."
-			}
-		},
-		"search": {
-			"description": "Searches for a song.",
-			"options": {
-				"song": "The song you want to search for."
-			},
-			"errors": {
-				"no_results": "`❌` | No results found.",
-				"search_error": "`❌` | An error occurred while searching."
-			},
-			"messages": {
-				"added_to_queue": "`🎶` | Added [{title}]({uri}) to the queue."
-			}
-		},
-		"seek": {
-			"description": "Seeks to a specific time in the song.",
-			"options": {
-				"duration": "The duration you want to seek to."
-			},
-			"errors": {
-				"invalid_format": "`❌` | Invalid time format. Examples: seek 1m, seek 1h 30m",
-				"not_seekable": "`❌` | This song is not seekable.",
-				"beyond_duration": "`❌` | Cannot seek beyond the song duration of {length}."
-			},
-			"messages": {
-				"seeked_to": "`🕐` | Seeked to {duration}."
-			}
-		},
-		"shuffle": {
-			"description": "Shuffles the queue.",
-			"messages": {
-				"shuffled": "`🔀` | Queue shuffled."
-			}
-		},
-		"skip": {
-			"description": "Skips the current song.",
-			"messages": {
-				"skipped": "`⏭️` | Skipped song [{title}]({uri})."
-			}
-		},
-		"skipto": {
-			"description": "Skips to a specific song in the queue.",
-			"options": {
-				"number": "The number of the song you want to skip to."
-			},
-			"errors": {
-				"invalid_number": "`❌` | Please provide a valid number."
-			},
-			"messages": {
-				"skipped_to": "`⏭️` | Skipped to song number {number}."
-			}
-		},
-		"stop": {
-			"description": "Stops the music and clears the queue.",
-			"messages": {
-				"stopped": "`⏹️` | Music stopped and queue cleared."
-			}
-		},
-		"volume": {
-			"description": "Sets the player's volume.",
-			"options": {
-				"number": "The volume you want to set."
-			},
-			"messages": {
-				"invalid_number": "`❌` | Please provide a valid number.",
-				"too_low": "`❌` | The volume cannot be lower than 0.",
-				"too_high": "`❌` | The volume cannot be higher than 200. Do you want to damage your hearing or speakers? Hmmm, I don't think that's a good idea.",
-				"set": "`🔊` | Volume set to {volume}."
-			}
-		},
-		"addsong": {
-			"description": "Adds a song to the playlist.",
-			"options": {
-				"playlist": "The playlist you want to add to.",
-				"song": "The song you want to add."
-			},
-			"messages": {
-				"no_playlist": "`❌` | Please provide a playlist.",
-				"no_song": "`❌` | Please provide a song.",
-				"playlist_not_found": "`❌` | That playlist doesn't exist.",
-				"no_songs_found": "`❌` | No songs found.",
-				"added": "`🎶` | Added {count} song(s) to {playlist}."
-			}
-		},
-		"create": {
-			"description": "Creates a playlist.",
-			"options": {
-				"name": "The name of the playlist."
-			},
-			"messages": {
-				"name_too_long": "`❌` | Playlist names cannot be longer than 50 characters.",
-				"playlist_exists": "`❌` | A playlist with that name already exists. Please use a different name.",
-				"playlist_created": "`🎶` | Playlist **{name}** created."
-			}
-		},
-		"delete": {
-			"description": "Deletes a playlist.",
-			"options": {
-				"playlist": "The playlist you want to delete."
-			},
-			"messages": {
-				"playlist_not_found": "`❌` | That playlist doesn't exist.",
-				"playlist_deleted": "`🗑️` | Playlist **{playlistName}** deleted.`"
-			}
-		},
-		"list": {
-			"description": "Gets all playlists from the user.",
-			"options": {
-				"user": "The user whose playlists you want to retrieve."
-			},
-			"messages": {
-				"no_playlists": "This user has no playlists.",
-				"your": "Your",
-				"playlists_title": "📃 {username}'s Playlists",
-				"error": "`❌` | An error occurred while retrieving playlists."
-			}
-		},
-		"load": {
-			"description": "Loads a playlist.",
-			"options": {
-				"playlist": "The playlist you want to load."
-			},
-			"messages": {
-				"playlist_not_exist": "`❌` | That playlist doesn't exist.",
-				"playlist_empty": "`❌` | This playlist is empty.",
-				"playlist_loaded": "`🎶` | Playlist `{name}` loaded with `{count}` songs."
-			}
-		},
-		"removesong": {
-			"description": "Removes a song from the playlist.",
-			"options": {
-				"playlist": "The playlist you want to remove from.",
-				"song": "The song you want to remove."
-			},
-			"messages": {
-				"provide_playlist": "`❌` | Please provide a playlist.",
-				"provide_song": "`❌` | Please provide a song.",
-				"playlist_not_exist": "`❌` | That playlist doesn't exist.",
-				"song_not_found": "`❌` | No matching song found.",
-				"song_removed": "`🗑️` | Song {song} removed from {playlist}.",
-				"error_occurred": "`❌` | An error occurred while removing the song."
-			}
-		},
-		"steal": {
-			"description": "Steals a playlist from another user and adds it to your playlists.",
-			"options": {
-				"playlist": "The playlist you want to steal.",
-				"user": "The user you want to steal the playlist from."
-			},
-			"messages": {
-				"provide_playlist": "`❌` | Please provide a playlist name.",
-				"provide_user": "`❌` | Please mention a user.",
-				"playlist_not_exist": "`❌` | That playlist doesn't exist for the mentioned user.",
-				"playlist_stolen": "`😈` | Playlist `{playlist}` successfully stolen from {user}.",
-				"error_occurred": "`❌` | An error occurred while stealing the playlist."
-			}
+		"messages": {
+			"provide_playlist": "`❌` | Пожалуйста, укажите название плейлиста.",
+			"provide_user": "`❌` | Пожалуйста, упомяните пользователя.",
+			"playlist_not_exist": "`❌` | Этот плейлист не существует у указанного пользователя.",
+			"playlist_stolen": "`😈` | Плейлист `{playlist}` успешно украден у {user}.",
+			"error_occurred": "`❌` | Произошла ошибка при краже плейлиста."
 		}
 	},
 	"buttons": {
-		"invite": "Invite",
-		"support": "Support Server",
-		"vote": "Vote for me!",
-		"premium": "Premium",
-		"previous": "Previous",
-		"resume": "Resume",
-		"stop": "Stop",
-		"skip": "Skip",
-		"loop": "Loop",
+		"invite": "Пригласить",
+		"support": "Сервер поддержки",
+		"vote": "Проголосуйте за меня!",
+		"premium": "Премиум",
+		"previous": "Предыдущий",
+		"resume": "Возобновить",
+		"stop": "Стоп",
+		"skip": "Пропустить",
+		"loop": "Повтор",
 		"errors": {
-			"not_author": "`❌` | You can't use this button."
+			"not_author": "`❌` | Вы не можете использовать эту кнопку."
 		}
 	},
 	"structures": {
 		"dispatcher": {
-			"title": "Voice Channel Empty",
-			"description": "I left {client} because I was left alone. \n\nTo enable 24/7 mode, use the `24/7` command. Unlock more features with Premium."
+			"title": "В голосовом канале пусто",
+			"description": "Я покинул {client}, так как остался один. \n\nЧтобы включить режим 24/7, используйте команду `24/7`. Откройте дополнительные функции с Premium."
 		}
 	},
 	"player": {
 		"errors": {
-			"no_player": "`❌` | There is no active player in this server.",
-			"no_channel": "`❌` | You need to be in a voice channel to use this command.",
-			"queue_empty": "`❌` | The queue is empty.",
-			"no_previous": "`❌` | There is no previous song in the queue.",
-			"no_song": "`❌` | There is no song in the queue.",
-			"already_paused": "`❌` | The song is already paused."
+			"no_player": "`❌` | В этом сервере нет активного проигрывателя.",
+			"no_channel": "`❌` | Вам нужно быть в голосовом канале, чтобы использовать эту команду.",
+			"queue_empty": "`❌` | Очередь пуста.",
+			"no_previous": "`❌` | В очереди нет предыдущей песни.",
+			"no_song": "`❌` | В очереди нет песни.",
+			"already_paused": "`❌` | Песня уже приостановлена."
 		},
 		"trackStart": {
-			"now_playing": "Now Playing:",
-			"author": "Author:",
-			"footer": "•  Loop: {loop}  •  Volume: {volume}%  •  Remaining Queue: {queue}",
-			"duration": "Duration:",
-			"requested": "Requested by:",
-			"not_connected_to_voice_channel": "You are not connected to <#{channel}> to use these buttons.",
-			"cooldown": "`❌` | Please wait {time} more second(s) before using a button.",
-			"need_dj_role": "You need to have the DJ role to use this command.",
-			"no_previous_song": "There is no previous song.",
-			"no_more_songs_in_queue": "There are no more songs in the queue.",
-			"no_replay_song": "Unable to replay this song as it is not seekable.",
-			"no_shuffle_song": "Queue is empty."
+			"now_playing": "Сейчас играет:",
+			"author": "Автор:",
+			"footer": "•  Повтор: {loop}  •  Громкость: {volume}%  •  Остаток в очереди: {queue}",
+			"duration": "Длительность:",
+			"requested": "Запрошено:",
+			"not_connected_to_voice_channel": "Вы не подключены к <#{channel}>, чтобы использовать эти кнопки.",
+			"cooldown": "`❌` | Пожалуйста, подождите {time} секунд(ы) перед использованием кнопки.",
+			"need_dj_role": "Вам нужно иметь роль DJ, чтобы использовать эту команду.",
+			"no_previous_song": "Нет предыдущей песни.",
+			"no_more_songs_in_queue": "В очереди больше нет песен.",
+			"no_replay_song": "Невозможно воспроизвести эту песню, так как она не поддерживает перемотку.",
+			"no_shuffle_song": "Очередь пуста."
 		},
 		"setupStart": {
-			"now_playing": "Now Playing:",
-			"description": "[{title}]({uri}) by {author} • `[{length}]` - Requested by <@{requester}>",
-			"error_searching": "An error occurred while searching.",
-			"no_results": "No results found.",
-			"nothing_playing": "Nothing is currently playing.",
-			"queue_too_long": "The queue is too long. The maximum length is {maxQueueSize} songs.",
-			"playlist_too_long": "The playlist is too long. The maximum length is {maxPlaylistSize} songs.",
-			"added_to_queue": "`🎶` | Added [{title}]({uri}) to the queue.",
-			"added_playlist_to_queue": "`🎶` | Added [{length}] songs from the playlist to the queue."
+			"now_playing": "Сейчас играет:",
+			"description": "[{title}]({uri}) от {author} • `[{length}]` - Запрошено <@{requester}>",
+			"error_searching": "Произошла ошибка при поиске.",
+			"no_results": "Результаты не найдены.",
+			"nothing_playing": "В данный момент ничего не играет.",
+			"queue_too_long": "Очередь слишком длинная. Максимальная длина - {maxQueueSize} песен.",
+			"playlist_too_long": "Плейлист слишком длинный. Максимальная длина - {maxPlaylistSize} песен.",
+			"added_to_queue": "`🎶` | Добавлена [{title}]({uri}) в очередь.",
+			"added_playlist_to_queue": "`🎶` | Добавлено [{length}] песен из плейлиста в очередь."
 		}
 	},
 	"event": {
 		"interaction": {
-			"setup_channel": "You can't use this command in the setup channel.",
-			"no_send_message": "`❌` | I don't have **`SendMessage`** permission in `{guild}`\nchannel: {channel}.",
-			"no_embed_links": "`❌` | I don't have **`EmbedLinks`** permission.",
-			"no_permission": "`❌` | I don't have enough permissions to execute this command.",
-			"no_user_permission": "`⚠️` | You don't have enough permissions to use this command.",
-			"no_voice_channel": "`⚠️` | You need to be connected to a voice channel to use this command `{command}`.",
-			"no_connect_permission": "`❌` | I don't have `CONNECT` permission to execute this command `{command}`.",
-			"no_speak_permission": "`❌` | I don't have `SPEAK` permission to execute this command `{command}`.",
-			"no_request_to_speak": "`❌` | I don't have `REQUEST TO SPEAK` permission to execute this command `{command}`.",
-			"different_voice_channel": "`⚠️` | You are not connected to {channel} to use this command `{command}`.",
-			"no_music_playing": "No music is currently playing.",
-			"no_vote": "`👍` | Hold on! Before using this command, you need to vote on top.gg. Thanks.",
-			"no_premium": "`✨` | This command is premium only.",
-			"no_dj_role": "`⚠️` | The DJ role is not set.",
-			"no_dj_permission": "`⚠️` | You need to have the DJ role to use this command.",
-			"cooldown": "`⏳` | Please wait {time} more second(s) before reusing the `{command}` command.",
-			"error": "`❌` | An error occurred: `{error}`"
+			"setup_channel": "Вы не можете использовать эту команду в канале настройки.",
+			"no_send_message": "`❌` | У меня нет разрешения **`SendMessage`** в `{guild}`\nканал: {channel}.",
+			"no_embed_links": "`❌` | У меня нет разрешения **`EmbedLinks`**.",
+			"no_permission": "`❌` | У меня недостаточно разрешений для выполнения этой команды.",
+			"no_user_permission": "`⚠️` | У вас недостаточно разрешений для использования этой команды.",
+			"no_voice_channel": "`⚠️` | Вам нужно быть подключенным к голосовому каналу, чтобы использовать эту команду `{command}`.",
+			"no_connect_permission": "`❌` | У меня нет разрешения `CONNECT`, чтобы выполнить эту команду `{command}`.",
+			"no_speak_permission": "`❌` | У меня нет разрешения `SPEAK`, чтобы выполнить эту команду `{command}`.",
+			"no_request_to_speak": "`❌` | У меня нет разрешения `REQUEST TO SPEAK`, чтобы выполнить эту команду `{command}`.",
+			"different_voice_channel": "`⚠️` | Вы не подключены к {channel}, чтобы использовать эту команду `{command}`.",
+			"no_music_playing": "В данный момент ничего не играет.",
+			"no_vote": "`👍` | Подождите! Перед использованием этой команды, вам нужно проголосовать на top.gg. Спасибо.",
+			"no_premium": "`✨` | Эта команда доступна только для премиум-пользователей.",
+			"no_dj_role": "`⚠️` | Роль DJ не установлена.",
+			"no_dj_permission": "`⚠️` | Вам нужно иметь роль DJ, чтобы использовать эту команду.",
+			"cooldown": "`⏳` | Пожалуйста, подождите {time} секунд(ы) перед повторным использованием команды `{command}`.",
+			"error": "`❌` | Произошла ошибка: `{error}`"
 		},
 		"message": {
-			"prefix_mention": "Hi, my prefix for this server is `{prefix}`. Want more info? Then do `{prefix}help`\nStay safe, stay awesome!",
-			"no_send_message": "`❌` | I don't have **`SendMessage`** permission in `{guild}`\nchannel: {channel}.",
-			"no_embed_links": "`❌` | I don't have **`EmbedLinks`** permission.",
-			"no_permission": "`❌` | I don't have enough permissions to execute this command.",
-			"no_user_permission": "`⚠️` | You don't have enough permissions to use this command.",
-			"no_voice_channel": "`⚠️` | You need to be connected to a voice channel to use this command `{command}`.",
-			"no_connect_permission": "`❌` | I don't have `CONNECT` permission to execute this command `{command}`.",
-			"no_speak_permission": "`❌` | I don't have `SPEAK` permission to execute this command `{command}`.",
-			"no_request_to_speak": "`❌` | I don't have `REQUEST TO SPEAK` permission to execute this command `{command}`.",
-			"different_voice_channel": "`⚠️` | You are not connected to {channel} to use this command `{command}`.",
-			"no_music_playing": "No music is currently playing.",
-			"no_dj_role": "`⚠️` | The DJ role is not set.",
-			"no_vote": "`👍` | Hold on! Before using this command, you need to vote on top.gg. Thanks.",
-			"no_premium": "`✨` | This command is premium only.",
-			"no_dj_permission": "`⚠️` | You need to have the DJ role to use this command.",
-			"missing_arguments": "`⚠️` | Missing Arguments",
-			"missing_arguments_description": "Please provide the required arguments for the `{command}` command.\n\nExamples:\n{examples}",
-			"syntax_footer": "Syntax: [] = optional, <> = required",
-			"cooldown": "`❌` | Please wait {time} more second(s) before reusing the `{command}` command.",
-			"no_mention_everyone": "`⏳` | You can't use this command with @everyone or @here.",
-			"error": "`❌` | An error occurred: `{error}`",
-			"no_voice_channel_queue": "`⚠️` | You are not connected to a voice channel to queue songs.",
-			"no_permission_connect_speak": "`❌` | I don't have enough permissions to connect/speakin <#{channel}>.",
-			"different_voice_channel_queue": "`⚠️` | You are not connected to <#{channel}> to queue songs."
+			"prefix_mention": "Привет, мой префикс для этого сервера - `{prefix}`. Хотите больше информации? Тогда используйте `{prefix}help`\nБерегите себя, оставайтесь крутыми!",
+			"no_send_message": "`❌` | У меня нет разрешения **`SendMessage`** в `{guild}`\nканал: {channel}.",
+			"no_embed_links": "`❌` | У меня нет разрешения **`EmbedLinks`**.",
+			"no_permission": "`❌` | У меня недостаточно разрешений для выполнения этой команды.",
+			"no_user_permission": "`⚠️` | У вас недостаточно разрешений для использования этой команды.",
+			"no_voice_channel": "`⚠️` | Вам нужно быть подключенным к голосовому каналу, чтобы использовать эту команду `{command}`.",
+			"no_connect_permission": "`❌` | У меня нет разрешения `CONNECT`, чтобы выполнить эту команду `{command}`.",
+			"no_speak_permission": "`❌` | У меня нет разрешения `SPEAK`, чтобы выполнить эту команду `{command}`.",
+			"no_request_to_speak": "`❌` | У меня нет разрешения `REQUEST TO SPEAK`, чтобы выполнить эту команду `{command}`.",
+			"different_voice_channel": "`⚠️` | Вы не подключены к {channel}, чтобы использовать эту команду `{command}`.",
+			"no_music_playing": "В данный момент ничего не играет.",
+			"no_dj_role": "`⚠️` | Роль DJ не установлена.",
+			"no_vote": "`👍` | Подождите! Перед использованием этой команды, вам нужно проголосовать на top.gg. Спасибо.",
+			"no_premium": "`✨` | Эта команда доступна только для премиум-пользователей.",
+			"no_dj_permission": "`⚠️` | Вам нужно иметь роль DJ, чтобы использовать эту команду.",
+			"missing_arguments": "`⚠️` | Отсутствуют аргументы",
+			"missing_arguments_description": "Пожалуйста, укажите необходимые аргументы для команды `{command}`.\n\nПримеры:\n{examples}",
+			"syntax_footer": "Синтаксис: [] = необязательно, <> = обязательно",
+			"cooldown": "`❌` | Пожалуйста, подождите {time} секунд(ы) перед повторным использованием команды `{command}`.",
+			"no_mention_everyone": "`⏳` | Вы не можете использовать эту команду с @everyone или @here.",
+			"error": "`❌` | Произошла ошибка: `{error}`",
+			"no_voice_channel_queue": "`⚠️` | Вы не подключены к голосовому каналу для добавления песен в очередь.",
+			"no_permission_connect_speak": "`❌` | У меня недостаточно разрешений для подключения/разговора в <#{channel}>.",
+			"different_voice_channel_queue": "`⚠️` | Вы не подключены к <#{channel}>, чтобы добавлять песни в очередь."
 		},
 		"setupButton": {
-			"no_voice_channel_button": "`⚠️` | You are not connected to a voice channel to use this button.",
-			"different_voice_channel_button": "`⚠️` | You are not connected to {channel} to use these buttons.",
-			"now_playing": "Now Playing:",
-			"live": "LIVE",
-			"requested_by": "Requested by: {requester}",
-			"no_dj_permission": "You need to have the DJ role to use this button.",
-			"volume_set": "`🔊` | Volume set to {vol}%.",
-			"volume_footer": "Volume: {vol}%",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"pause_resume": "{name} the music.",
-			"pause_resume_footer": "{name} by {displayName}",
-			"no_music_to_skip": "There is no music to skip.",
-			"skipped": "`⏭️` | Music skipped.",
-			"skipped_footer": "Skipped by {displayName}",
-			"stopped": "`⏹️` | Music stopped.",
-			"stopped_footer": "Stopped by {displayName}",
-			"nothing_playing": "No music is currently playing.",
-			"loop_set": "Loop set to {loop}.",
-			"loop_footer": "Loop set to {loop} by {displayName}",
-			"shuffled": "`🔀` | Queue shuffled.",
-			"no_previous_track": "There is no previous track.",
-			"playing_previous": "`⏮️` | Playing the previous song.",
-			"previous_footer": "Playing the previous song by {displayName}",
-			"rewind_limit": "`⚠️` | You can't rewind the music more than the song duration.",
-			"rewinded": "`⏪` | Music rewinded.",
-			"rewind_footer": "Rewinded by {displayName}",
-			"forward_limit": "`⚠️` | You can't forward the music more than the song duration.",
-			"forwarded": "`⏩` | Music forwarded.",
-			"forward_footer": "Forwarded by {displayName}",
-			"button_not_available": "`❌` | This button is not available.",
-			"no_music_playing": "There is no music playing on this server."
+			"no_voice_channel_button": "`⚠️` | Вы не подключены к голосовому каналу, чтобы использовать эту кнопку.",
+			"different_voice_channel_button": "`⚠️` | Вы не подключены к {channel}, чтобы использовать эти кнопки.",
+			"now_playing": "Сейчас играет:",
+			"live": "В РЕЖИМЕ LIVE",
+			"requested_by": "Запрошено: {requester}",
+			"no_dj_permission": "Вам нужно иметь роль DJ, чтобы использовать эту кнопку.",
+			"volume_set": "`🔊` | Громкость установлена на {vol}%.",
+			"volume_footer": "Громкость: {vol}%",
+			"paused": "Приостановлено",
+			"resumed": "Возобновлено",
+			"pause_resume": "{name} музыку.",
+			"pause_resume_footer": "{name} от {displayName}",
+			"no_music_to_skip": "Нет музыки для пропуска.",
+			"skipped": "`⏭️` | Музыка пропущена.",
+			"skipped_footer": "Пропущено {displayName}",
+			"stopped": "`⏹️` | Музыка остановлена.",
+			"stopped_footer": "Остановлено {displayName}",
+			"nothing_playing": "В данный момент ничего не играет.",
+			"loop_set": "Повтор установлен на {loop}.",
+			"loop_footer": "Повтор установлен на {loop} от {displayName}",
+			"shuffled": "`🔀` | Очередь перемешана.",
+			"no_previous_track": "Нет предыдущего трека.",
+			"playing_previous": "`⏮️` | Воспроизведение предыдущей песни.",
+			"previous_footer": "Воспроизведение предыдущей песни от {displayName}",
+			"rewind_limit": "`⚠️` | Вы не можете перемотать музыку больше длительности песни.",
+			"rewinded": "`⏪` | Музыка перемотана.",
+			"rewind_footer": "Перемотано {displayName}",
+			"forward_limit": "`⚠️` | Вы не можете перемотать музыку дальше длительности песни.",
+			"forwarded": "`⏩` | Музыка перемотана.",
+			"forward_footer": "Перемотано {displayName}",
+			"button_not_available": "`❌` | Эта кнопка недоступна.",
+			"no_music_playing": "На этом сервере нет музыки."
 		}
 	}
 }
