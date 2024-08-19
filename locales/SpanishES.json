@@ -1,7 +1,7 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Configure the bot to stay in the voice channel.",
+			"description": "",
 			"errors": {
 				"not_in_voice": "`❌` | You must be in a voice channel to use this command.",
 				"generic": "`❌` | An error occurred while executing this command."
